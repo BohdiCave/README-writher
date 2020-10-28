@@ -1,0 +1,28 @@
+{
+  "name": "readme-writher",
+  "version": "1.0.0",
+  "description": "A command-line application - a README.md generator based on user inputs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BohdiCave",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "inquirer": "^6.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BohdiCave/README-writher.git"
+  },
+  "keywords": [
+    "README",
+    "generator",
+    "commandline",
+    "app"
+  ],
+  "bugs": {
+    "url": "https://github.com/BohdiCave/README-writher/issues"
+  },
+  "homepage": "https://github.com/BohdiCave/README-writher#readme"
+}
