@@ -1,6 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const someThing  = require('./utils/generateMarkdown');
+const markDown  = require('./utils/generateMarkdown');
 
 
 // array of questions for user
@@ -13,11 +13,14 @@ const questions = [
     'Please provide the installation instructions.',
     'Please provide any usage information.',
     'Please provide your guidelines for contributing to the project.',
-    'Please provide any testing instructions'
+    'Please provide any testing instructions.'
 ];
 
+// additional global declarations
 let fileName, licBadge, licText; 
 
+// getting user input and assigning the license variables based on the choice. 
+// Finally, calling the init() function
 inquirer
     .prompt([
         {type: "input", message: questions[0], name: "profile"}, 
@@ -49,7 +52,7 @@ inquirer
 
 // function to write README file
 function writeToFile(fileName, response) {
-    fs.writeFile(`${fileName}`, someThing(response, licBadge, licText), function(err) {
+    fs.writeFile(`${fileName}`, markDown(response, licBadge, licText), function(err) {
         if (err) {
             console.log(err);
         } else {
@@ -66,6 +69,3 @@ function init(fileName, response) {
         console.log("Hell!");
     }
 }
-
-// function call to initialize program
-// init();
