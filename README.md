@@ -13,6 +13,7 @@ A command-line app to generate README files based on user input and help them do
   * [Tests](#tests)
   * [Questions](#questions)
   * [Link](#link-to-the-finished-product)
+  * [Screenshots](#screenshots)
 
 
 ## Installation  
@@ -41,7 +42,7 @@ Everyone is permitted to copy and distribute verbatim copies of this license doc
 Knock yourself out!
 
 ## Tests
-That's what this README is - one of the tests. So, if you are running this in a directory with an existing `README.md` file - beware that it is not overwritten. 
+That's what this README is based on - one of the tests. So, if you are running this in a directory with an existing `README.md` file - beware that it is not overwritten. 
 
 ## Questions
 With further questions, please contact me: 
@@ -53,3 +54,9 @@ With further questions, please contact me:
 [README Writher GitHub repository](https://github.com/BohdiCave/README-writher)
 
 ## Screenshots: 
+
+### First run-through: 
+![README generated](./utils/screen1.png)
+
+### Second run-through:
+![README generated](./utils/screen2.png)
